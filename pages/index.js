@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carouselhome from '../Components/Carousel/Carousel';
 import Loginhome from '../Components/Login/Login';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import Footer from '../Components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Navbarhome />
       <Carouselhome />
+      <Footer />
     </>
   )
 }
