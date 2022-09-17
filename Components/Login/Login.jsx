@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import React from 'react';
 import {
   MDBBtn,
@@ -30,7 +31,7 @@ function Loginhome() {
 
             <MDBBtn className="mb-4 px-5 mx-5 w-100" color='info' size='lg'>Login</MDBBtn>
             <p className="small mb-5 pb-lg-3 ms-5"><a class="text-muted" href="#!">Forgot password?</a></p>
-            <p className='ms-5'>{"Don't have an account? "}<a href="#!" class="link-info">Register here</a></p>
+            <p className='ms-5'>{"Don't have an account? "}<a href="/registerpage" class="link-info">Register here</a></p>
 
           </div>
 
