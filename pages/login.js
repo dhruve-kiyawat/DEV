@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbarhome from '../Components/Navbar/Navbar'
-import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carouselhome from '../Components/Carousel/Carousel';
+import React from 'react';
+import {MDBContainer, MDBCol, MDBRow, MDBBtn, MDBIcon, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
 import Loginhome from '../Components/Login/Login';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
-export default function Home() {
+export default function login() {
   return (
     <>
       <Head>
@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbarhome />
-      <Carouselhome />
+      <Loginhome />
     </>
   )
 }
