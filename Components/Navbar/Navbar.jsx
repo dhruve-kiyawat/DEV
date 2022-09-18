@@ -21,7 +21,7 @@ function Navbarhome() {
           >
             <Nav.Link href="/">Home</Nav.Link>
 
-            <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link href="/Choose">Login</Nav.Link>
             <Nav.Link href="/registerpage">Sing Up</Nav.Link>
             <NavDropdown title="Need Help ?" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>

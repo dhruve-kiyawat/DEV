@@ -1,0 +1,7 @@
+.buttonmain{
+    margin: 10vw 35vw 10vw 35vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

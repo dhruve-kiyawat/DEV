@@ -6,6 +6,7 @@ import Carouselhome from '../Components/Carousel/Carousel';
 import React from 'react';
 import {MDBContainer, MDBCol, MDBRow, MDBBtn, MDBIcon, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
 import Loginhome from '../Components/Login/Login';
+import Footerhome from '../Components/Footer/Footer';
 
 export default function login() {
   return (
@@ -17,6 +18,7 @@ export default function login() {
       </Head>
       <Navbarhome />
       <Loginhome />
+      <Footerhome />
     </>
   )
 }
