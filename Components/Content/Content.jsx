@@ -75,7 +75,7 @@ export function HeroBullets() {
         <div className={classes.inner}>
           <div className={classes.content}>
             <Title className={classes.title}>
-              <span className={classes}>Need of KrishiUrja</span> <br />
+              <span class="text-success" className={classes}>Need of KrishiUrja</span> <br />
             </Title>
             <Text color="dimmed" mt="md">
               With the expansion of the world economy, energy consumption is

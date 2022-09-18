@@ -1,16 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Navbarhome from '../Components/Navbar/Navbar'
-import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carouselhome from '../Components/Carousel/Carousel';
-import Loginhome from '../Components/Login/Login';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
-import Footer from '../Components/Footer/Footer';
 import { HeroBullets } from '../Components/Content/Content';
-import { FeaturesImages } from '../Components/Testi/Testi';
 import { UserCardImage } from '../Components/Usercard/Usercard';
 import Footerhome from '../Components/Footer/Footer';
+import Services from '../Components/Services/Services';
 
 export default function Home() {
   return (
@@ -23,7 +19,8 @@ export default function Home() {
       <Navbarhome />
       <Carouselhome />
       <HeroBullets />
-      <UserCardImage />
+      <Services />
+      {/* <UserCardImage /> */}
       {/* <FeaturesImages /> */}
       <Footerhome />
     </>

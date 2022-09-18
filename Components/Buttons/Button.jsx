@@ -17,7 +17,7 @@ export function ButtonMenu() {
         <Menu transition="pop-top-right" position="top-end" width={220}>
           <h1>Are you a Farmer ?</h1>
           <br></br>
-          <Link href="/login">
+          <Link href="/registerpage">
             <Button>Login Here</Button>
           </Link>
           <br></br>
@@ -25,7 +25,7 @@ export function ButtonMenu() {
           <br></br>
           <h1>Or a Industrialist ?</h1>
           <br></br>
-          <Link href="/login">
+          <Link href="/registerpage">
           <Button>Login Here</Button>
           </Link>
         </Menu>

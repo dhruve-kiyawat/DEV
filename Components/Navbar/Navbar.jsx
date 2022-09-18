@@ -10,8 +10,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function Navbarhome() {
   return (
     <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="/">Krishi Urja</Navbar.Brand>
+      <Container fluid >
+        <Navbar.Brand href="/" class="text-success">Krishi Urja</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -21,8 +21,8 @@ function Navbarhome() {
           >
             <Nav.Link href="/">Home</Nav.Link>
 
-            <Nav.Link href="/Choose">Login</Nav.Link>
-            <Nav.Link href="/registerpage">Sing Up</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
+            <Nav.Link href="/choose">Sign Up</Nav.Link>
             <NavDropdown title="Need Help ?" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">

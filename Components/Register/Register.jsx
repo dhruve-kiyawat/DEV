@@ -11,7 +11,8 @@ from 'mdb-react-ui-kit';
 function Register() {
   return (
     <MDBContainer className="p-3 my-5 d-flex flex-column w-50">
-
+      <h1 class="text-success">Welcome ! Farmer </h1>
+      <br></br>
       <MDBInput wrapperClass='mb-4' label='First Name' id='form2' type='test'/>
       <MDBInput wrapperClass='mb-4' label='Middle Name' id='form2' type='test'/>
       <MDBInput wrapperClass='mb-4' label='Last Name' id='form2' type='test'/>
@@ -26,7 +27,7 @@ function Register() {
       <MDBInput wrapperClass='mb-4' label='State' id='form1' type='test'/>
 
       <div className="d-flex justify-content-between mx-3 mb-4">
-        <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
+        <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Accepting Our Terms And Condition' />
         <a href="!#">Need Help?</a>
       </div>
 

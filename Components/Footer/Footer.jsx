@@ -121,10 +121,10 @@ export default function Footerhome() {
         </MDBRow>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center p-3' style={{ backgroundColor: '#b3e9c9' }}>
         &copy; {new Date().getFullYear()} Copyright:{' '}
-        <a className='text-dark' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+        <a className='text-dark' href='#'>
+          Team Hackstone
         </a>
       </div>
     </MDBFooter>

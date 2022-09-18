@@ -4,7 +4,7 @@ import Navbarhome from '../Components/Navbar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carouselhome from '../Components/Carousel/Carousel';
 import React from 'react';
-import {MDBContainer, MDBCol, MDBRow, MDBBtn, MDBIcon, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBCol, MDBRow, MDBBtn, MDBIcon, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
 import Loginhome from '../Components/Login/Login';
 import Footerhome from '../Components/Footer/Footer';
 
