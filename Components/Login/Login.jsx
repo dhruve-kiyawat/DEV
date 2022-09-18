@@ -29,7 +29,7 @@ function Loginhome() {
           </div>
         </MDBCol>
         <MDBCol sm='6' className='d-none d-sm-block px-0'>
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
+          <img src="C:\Users\NIKHIL SINGH\Desktop\Final\HTM\public\img7.jpg"
             alt="Login image" className="w-100" style={{objectFit: 'cover', objectPosition: 'left'}} />
         </MDBCol>
       </MDBRow>
