@@ -10,7 +10,7 @@ import {
   ThemeIcon,
 } from "@mantine/core";
 import { IconCheck } from "@tabler/icons";
-import image from "../../public/Slide4.jpeg";
+import image from "../../public/img5.jpg";
 
 const useStyles = createStyles((theme) => ({
   inner: {
@@ -75,7 +75,10 @@ export function HeroBullets() {
         <div className={classes.inner}>
           <div className={classes.content}>
             <Title className={classes.title}>
-              <span class="text-success" className={classes}>Need of KrishiUrja</span> <br />
+              <span class="text-success" className={classes}>
+                Need of KrishiUrja
+              </span>{" "}
+              <br />
             </Title>
             <Text color="dimmed" mt="md">
               With the expansion of the world economy, energy consumption is
@@ -99,22 +102,23 @@ export function HeroBullets() {
               }
             >
               <List.Item>
-                <b>TypeScript based</b> – build type safe applications, all
-                components and hooks export types
+                <b>Anonymous</b>{" "}
+                {"- Lets nuture the nature,so that we can have better future."}
               </List.Item>
               <List.Item>
-                <b>Free and open source</b> – all packages have MIT license, you
-                can use Mantine in any project
+                <b>Mahatma Gandhi</b>{" "}
+                {
+                  "– Earth provides enough to satisfy every man's needs,but not every man's greed."
+                }
               </List.Item>
               <List.Item>
-                <b>No annoying focus ring</b> – focus ring will appear only when
-                user navigates with keyboard
+                <b>Lady Bird johnson</b> {"– The environment is where we all meet;where all have a mutual interest; it is the one thing all of us share."}
               </List.Item>
             </List>
 
             <Group mt={30}>
               <Button radius="xl" size="md" className={classes.control}>
-                Get started
+                {"Farmer's data"}
               </Button>
               <Button
                 variant="default"
@@ -122,7 +126,7 @@ export function HeroBullets() {
                 size="md"
                 className={classes.control}
               >
-                Source code
+                {"Industrialist's data"}
               </Button>
             </Group>
           </div>
