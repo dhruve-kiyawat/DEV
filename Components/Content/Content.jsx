@@ -112,19 +112,29 @@ export function HeroBullets() {
                 }
               </List.Item>
               <List.Item>
-                <b>Lady Bird johnson</b> {"– The environment is where we all meet;where all have a mutual interest; it is the one thing all of us share."}
+                <b>Lady Bird johnson</b>{" "}
+                {
+                  "– The environment is where we all meet;where all have a mutual interest; it is the one thing all of us share."
+                }
               </List.Item>
             </List>
 
             <Group mt={30}>
-              <Button radius="xl" size="md" className={classes.control}>
-                {"Farmer's data"}
-              </Button>
               <Button
-                variant="default"
                 radius="xl"
                 size="md"
                 className={classes.control}
+                variant="gradient"
+                gradient={{ from: "teal", to: "lime", deg: 105 }}
+              >
+                {"Farmer's data"}
+              </Button>
+              <Button
+                radius="xl"
+                size="md"
+                className={classes.control}
+                variant="gradient"
+                gradient={{ from: "teal", to: "lime", deg: 105 }}
               >
                 {"Industrialist's data"}
               </Button>
