@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,6 +17,7 @@
     "@mantine/next": "^5.3.3",
     "@tabler/icons": "^1.96.0",
     "bootstrap": "^5.2.1",
+    "firebase": "^9.10.0",
     "mdb-react-ui-kit": "^4.2.0",
     "native": "^0.2.0",
     "next": "12.3.0",

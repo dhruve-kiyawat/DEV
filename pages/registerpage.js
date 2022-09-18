@@ -3,6 +3,7 @@ import Navbarhome from '../Components/Navbar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Register from '../Components/Register/Register.jsx';
+import Footerhome from '../Components/Footer/Footer';
 
 function Registerpage() {
   return (
@@ -14,6 +15,7 @@ function Registerpage() {
       </Head>
       <Navbarhome />
       <Register />
+      <Footerhome />
     </>
   )
 }

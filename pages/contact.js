@@ -7,6 +7,7 @@ import React from 'react';
 import {MDBContainer, MDBCol, MDBRow, MDBBtn, MDBIcon, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
 import Loginhome from '../Components/Login/Login';
 import { GetInTouch } from '../Components/Contact/Contact';
+import Footerhome from '../Components/Footer/Footer';
 
 export default function login() {
   return (
@@ -17,6 +18,7 @@ export default function login() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbarhome />
+      <Footerhome />
       {/* <GetInTouch /> */}
     </>
   )
