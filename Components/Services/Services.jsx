@@ -14,17 +14,16 @@ const Services = () => {
             <b>Farmers</b>
           </div>
           <div className={styles.subhead}>
-            Design to me is something magical - I am lucky that it lets me get
-            creative and build new projects.
+          “Cultivators are the most valuable citizens…they are tied to their country.”
           </div>
         </div>
         <div className={styles.box}>
           <div className={styles.heading}>
-            <b>Industrialist</b>
+            <b>Organizations</b>
           </div>
           <div className={styles.subhead}>
             {
-              "Even single project is a challenge that I accept eagerly. Let's implement innovative ideas together."
+              "Natural gas from fossil fuel sources is used in the biogas, is made by Organizations in the form of energy, including the production of heat and power."
             }
           </div>
         </div>
@@ -35,8 +34,8 @@ const Services = () => {
             <b>Wastage Uses</b>
           </div>
           <div className={styles.subhead}>
-            I am willing to solve any inquiry that comes from your side within
-            minutes.
+          Wastages convert into beneficial resource like, bio-fuels, green energy.
+            
           </div>
         </div>
         <div className={styles.box}>
@@ -44,8 +43,7 @@ const Services = () => {
             <b>Enviroment Friendly</b>
           </div>
           <div className={styles.subhead}>
-            I will deliver my best in each and every project given to me. So you
-            can trust me with everything.
+          Syngas is created by heating biomass to remove impurities, which results in a mixture of hydrogen and carbon monoxide,To generate electricity.
           </div>
         </div>
       </div>

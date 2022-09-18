@@ -8,11 +8,11 @@ function Carouselhome() {
         <img
           className="d--block w-100"
           src="./Slide_1.jpeg"
-          alt="First slide"
+          alt="“To forget how to dig the earth and to tend the soil is to forget ourselves.” -Mahatma Gandhi"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Farmer</h3>
+          <p>“To forget how to dig the earth and to tend the soil is to forget ourselves.” -Mahatma Gandhi</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -23,8 +23,8 @@ function Carouselhome() {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          {/* <h3>Second slide label</h3> */}
+          <p>“Agriculture engenders good sense, and good sense of an excellent kind.” – Joseph Joubert</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -35,9 +35,9 @@ function Carouselhome() {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          {/* <h3>Third slide label</h3> */}
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          “The ultimate goal of farming is not the growing of crops, but the cultivation and perfection of human beings.” 
           </p>
         </Carousel.Caption>
       </Carousel.Item>
