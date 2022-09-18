@@ -7,7 +7,7 @@ function Carouselhome() {
       <Carousel.Item>
         <img
           className="d--block w-100"
-          src="./cow_dung_275x.png"
+          src="./Slide_1.jpeg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -18,7 +18,7 @@ function Carouselhome() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./cowdung.png"
+          src="./Slide_2.jpeg"
           alt="Second slide"
         />
 
@@ -30,7 +30,7 @@ function Carouselhome() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="./cowdung.png"
+          src="./Slide_3.jpeg"
           alt="Third slide"
         />
 
