@@ -1,7 +1,5 @@
 “An improvised way of tackling the issue of creating a consistent supply chain to augment the use of Biofuels”
 
-- Team HackStone
-
 ## Problem Statement : -
 
 India has been a major importer of crude oil. In the year 2019-20 the import bill was around $100 billion which is a huge strain on the country’s exchequer. One possible solution to this is the augmented use of alternative fuels is the use of biofuels. Since the production of biofuels is abundant in India and it requires minimal infrastructure changes for large scale adoption, it can serve as a much easier solution to the issue. But the creation of a supply chain for regular use of Biofuels is still in its nascent stage.
